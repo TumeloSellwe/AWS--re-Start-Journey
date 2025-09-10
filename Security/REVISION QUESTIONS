@@ -1,0 +1,150 @@
+Questions 1–10
+Q1: A company wants to reduce costs by automatically moving infrequently accessed objects to a cheaper storage class after 60 days. Which AWS feature should they use?
+A) S3 Transfer Acceleration
+B) S3 Lifecycle Policies
+C) AWS Backup
+D) CloudFront
+
+Q2: Your company needs to store sensitive data securely in the cloud, ensuring only authorized users can access it. Which AWS feature helps implement this?
+A) IAM Policies and MFA
+B) Trusted Advisor
+C) S3 Glacier Deep Archive
+D) AWS Snowmobile
+
+Q3: A global e-commerce site wants to serve content with low latency to users worldwide. Which AWS service is best suited for this?
+A) S3 Standard
+B) CloudFront
+C) DataSync
+D) Storage Gateway
+
+Q4: A healthcare company must retain patient records for 10 years but rarely accesses them. Which storage class is most cost-effective?
+A) S3 Standard
+B) S3 Glacier Flexible Retrieval
+C) S3 Standard-IA
+D) S3 One Zone-IA
+
+Q5: Your company wants to replicate S3 objects to another AWS region for disaster recovery. Which feature should they use?
+A) S3 Lifecycle Policies
+B) S3 Cross-Region Replication
+C) Storage Gateway – File Gateway
+D) DataSync
+
+Q6: A research lab collects 50 TB of data on a remote island with no reliable internet. They need local compute and storage before uploading results. Which device is best?
+A) Snowcone
+B) Snowball Edge Compute Optimized
+C) Snowball Edge Storage Optimized
+D) Snowmobile
+
+Q7: A developer needs temporary access to AWS resources for testing, following the principle of least privilege. Which IAM feature allows this?
+A) IAM Roles
+B) Root User Access
+C) MFA for root account
+D) Security Hub
+
+Q8: A company wants to monitor API activity across all AWS accounts to detect unusual behavior. Which service should they use?
+A) CloudTrail
+B) Trusted Advisor
+C) S3 Standard
+D) DataSync
+
+Q9: A media company must migrate 3 PB of historical data to AWS. Internet bandwidth is insufficient. Which service is most appropriate?
+A) Snowball Edge
+B) Snowmobile
+C) DataSync
+D) S3 Transfer Acceleration
+
+Q10: A small startup wants to optimize cloud costs by turning off idle EC2 instances when not needed. Which solution is most effective?
+A) AWS Cost Explorer
+B) Rightsizing and automation
+C) Trusted Advisor Security Checks
+D) S3 Lifecycle Policies
+
+Q11: A company wants to ensure only approved users can access sensitive S3 objects and require MFA for console access. Which combination is correct?
+A) IAM Policies + MFA + Role Assignment
+B) Root account only
+C) Trusted Advisor Checks
+D) CloudFront
+
+Q12: A financial company wants to back up on-premises block storage volumes to AWS. Which service should they use?
+A) Storage Gateway – Volume Gateway
+B) Storage Gateway – File Gateway
+C) DataSync
+D) S3 Glacier
+
+Q13: A marketing firm stores large images that are frequently accessed for campaigns and rarely accessed after 90 days. Which storage classes combination is optimal?
+A) S3 Standard → Standard-IA → Glacier Deep Archive
+B) S3 One Zone-IA → Glacier Flexible Retrieval → Glacier Deep Archive
+C) S3 Standard → S3 Standard → S3 Standard
+D) Glacier Flexible Retrieval → Standard → Standard-IA
+
+Q14: An enterprise wants to automatically detect potential security threats in real-time across AWS accounts. Which service should they enable?
+A) GuardDuty
+B) CloudTrail
+C) IAM Roles
+D) DataSync
+
+Q15: A company wants to securely transfer large datasets weekly from on-premises servers to AWS over the internet with encryption. Which service is best?
+A) DataSync
+B) Snowball Edge
+C) Storage Gateway
+D) S3 Glacier
+
+Q16: Which AWS framework provides a structured approach for aligning cloud adoption with business and technical outcomes?
+A) AWS Cloud Adoption Framework (CAF)
+B) Well-Architected Framework (WAF)
+C) Shared Responsibility Model
+D) Trusted Advisor
+
+Q17: A company wants to serve static website content with high availability and durability. Which AWS service is best?
+A) S3 Standard with versioning
+B) EC2
+C) Lambda
+D) Storage Gateway
+
+Q18: Which AWS support plan provides 24/7 access to Cloud Support Engineers and Infrastructure Event Management?
+A) Basic
+B) Developer
+C) Business
+D) Enterprise
+
+Q19: A startup is concerned about underutilized EC2 instances causing unnecessary costs. Which tool helps identify these opportunities?
+A) Trusted Advisor
+B) CloudTrail
+C) S3 Lifecycle Policies
+D) AWS Artifact
+
+Q20: A company needs to meet strict compliance and audit requirements for AWS resources. Which tool provides reports for governance and compliance?
+A) AWS Artifact
+B) CloudFront
+C) DataSync
+D) Snowball Edge
+
+Q21: A company wants to automatically move old log files from S3 Standard to Glacier Deep Archive after 1 year. Which feature should they use?
+A) Cross-Region Replication
+B) Lifecycle Policies
+C) DataSync
+D) CloudTrail
+
+Q22: Your team wants to grant temporary AWS access to a third-party consultant without sharing long-term credentials. Which IAM feature should they use?
+A) IAM Roles with expiration
+B) Root account credentials
+C) IAM Groups
+D) Security Hub
+
+Q23: Which AWS service monitors operational health and provides proactive alerts for AWS resources?
+A) AWS Health Dashboard
+B) CloudTrail
+C) Trusted Advisor
+D) DataSync
+
+Q24: A company needs a CDN to reduce latency for its global user base. Which service is best?
+A) CloudFront
+B) S3 Glacier
+C) Storage Gateway
+D) Snowball Edge
+
+Q25: A government agency wants extremely low-cost archival storage for rarely accessed data with retrieval allowed in 12+ hours. Which storage class fits best?
+A) S3 Glacier Flexible Retrieval
+B) S3 Glacier Deep Archive
+C) S3 Standard
+D) S3 One Zone-IA
