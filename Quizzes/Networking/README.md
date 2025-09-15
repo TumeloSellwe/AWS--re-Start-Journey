@@ -11,18 +11,18 @@ Welcome to the **Networking Quiz Zone**! Test your AWS networking knowledge.
 
 1. Which AWS service provides DNS resolution?
 - [ ] S3
-- [x] Route 53
+- [ ] Route 53
 - [ ] EC2
 - [ ] CloudFront
 
 2. What does a NAT Gateway do?
 - [ ] Encrypts traffic
-- [x] Allows private subnet to access the internet
+- [ ] Allows private subnet to access the internet
 - [ ] Hosts static websites
 
 3. What is the main purpose of a VPC?
 - [ ] Store objects
-- [x] Isolate resources and control networking
+- [ ] Isolate resources and control networking
 
 ---
 
