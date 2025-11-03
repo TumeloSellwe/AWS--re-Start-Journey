@@ -1,56 +1,106 @@
-# 🚀 Projects Portfolio  
+🚀 Tumelo Gladness Sellwe – Cloud & AWS Projects Portfolio
 
-Welcome to my **Projects** folder — a collection of technical explorations, architecture blueprints, and cloud-native experiments.  
-If you love **AWS, cloud design, or scalable e-commerce systems**, you’re in the right place. 🌍✨  
+Welcome to my Projects folder — a collection of technical explorations, cloud-native solutions, and architecture experiments.
 
----
+If you love AWS, cloud design, or scalable systems, you’re in the right place. 🌍✨
 
-## 📂 Featured Project: 3D E-Commerce Platform on AWS  
+📂 Featured Projects
+1. AWS Lex Chatbot Project
 
-**Goal:**  
-Build a global e-commerce platform where users can interact with **3D product models** in real time.  
+Overview:
+This project demonstrates the creation of an interactive chatbot using Amazon Lex, completed as part of the Praesignis AWS re/Start Special Projects program. The bot performs two key functions:
 
-**Highlights:**  
-- 🌐 **Global Delivery** with Route 53 + CloudFront  
-- 💾 **Data Layer** combining DynamoDB & Aurora Global DB  
-- ⚡ **Performance Boosts** with ElastiCache & optimized 3D assets  
-- 🔐 **Enterprise Security** via Cognito, WAF, Shield, and KMS  
-- 📊 **Observability** with CloudWatch, X-Ray, and CloudTrail  
-- 💸 **Cost Optimization** using Spot, Glacier, and intelligent tiering  
+Information Bot: Answers questions about AWS S3.
 
-📘 [Read the full architecture documentation]
+Quiz Bot: Conducts an interactive knowledge-check quiz with multiple-choice questions and real-time feedback.
 
----
+Highlights:
 
-## 🎯 Why This Matters  
-- 🛍️ E-commerce is evolving → 3D and AR are the next frontier.  
-- ☁️ AWS offers the building blocks for **global, resilient, secure** platforms.  
-- 💡 This project shows how to combine AWS services into a real-world architecture.  
+Built using Amazon Lex with intents, utterances, and branching logic.
 
----
+Includes quiz flow with correct/incorrect responses.
 
-## 📸 Diagrams & Visuals  
-Check out `/diagrams` for AWS-style architecture diagrams.  
-*(Because a picture is worth 1,000 lines of YAML 😉)*  
+Fully tested with multiple user inputs.
 
----
+Accompanied by screenshots, PDFs, and a presentation.
 
-## 🔮 What’s Next?  
-- Add a **CI/CD pipeline** example with CodePipeline + GitHub Actions  
-- Prototype a **3D asset compression pipeline** with AWS Batch  
-- Extend to **multi-region active-active** for ultimate resilience  
+Files & Visuals:
 
----
+[Project Report PDF](./AWS Lex Chatbot Project.pdf) – Full step-by-step guide.
 
-## 🤝 Contributing  
-This Folder is primarily for **showcasing architecture designs**, but feel free to:  
-- Open issues with feedback 💬  
-- Suggest new architecture ideas 💡  
-- Fork and build on top of it 🚀  
+[Project Presentation PPTX](./Project presentation.pptx) – Client demo slides.
 
----
+[Project Documentation PDF](./Praesignis AWS Special Project 3 - AWS Lex Bot Creation (1).pdf)
 
-## 📬 Contact  
+Screenshots:
+
+Skills Demonstrated:
+
+AWS Lex chatbot development
+
+Branching logic and quiz implementation
+
+Problem-solving & technical communication
+
+Interactive learning design with AWS S3
+
+Demo:
+The bot can be tested via the Amazon Lex console, demonstrating:
+
+Quiz initiation with "Start quiz"
+
+Multiple-choice questions
+
+Correct/incorrect response handling
+
+Smooth quiz flow with retries and next-question prompts
+
+Future Improvements:
+
+Expand quizzes to cover additional AWS services
+
+Integrate AWS Lambda for dynamic responses
+
+Track user sessions to remember quiz progress
+
+2. 3D E-Commerce Platform on AWS
+
+Goal:
+Build a global e-commerce platform where users can interact with 3D product models in real time.
+
+Highlights:
+
+🌐 Global delivery using Route 53 + CloudFront
+
+💾 Data layer combining DynamoDB & Aurora Global DB
+
+⚡ Performance boosts with ElastiCache & optimized 3D assets
+
+🔐 Security with Cognito, WAF, Shield, and KMS
+
+📊 Observability via CloudWatch, X-Ray, CloudTrail
+
+💸 Cost optimization using Spot, Glacier, and intelligent tiering
+
+Files & Visuals:
+
+Architecture PDF
+
+Future Work:
+
+Add CI/CD pipeline example with CodePipeline + GitHub Actions
+
+Prototype a 3D asset compression pipeline with AWS Batch
+
+Extend to multi-region active-active for ultimate resilience
+
+📬 Contact
+
+Tumelo Gladness Sellwe
+💼 Cloud | Architecture | AWS
+🌍 Based in Botswana
+
+⭐️ If you like this portfolio, consider starring the repo — it keeps me motivated to share more!
 👤 **Tumelo Gladness Sellwe**  
 💼 Cloud | Architecture | AWS  
 🌍 Based in Botswana  
